@@ -15,11 +15,13 @@
     $("div[data-feed-key=my_lent]").removeAttr("id");
     let best = $("div[data-feed-key=best]");
     let feed = $("div[data-feed-key=my_lent]");
+	let b_text = best.html();
+	let f_text = feed.html();
     best.attr("data-feed-key","my_lent");
     feed.attr("data-feed-key","best");
 
-    best.children("a").html("Подписки");
-    feed.children("a").html("Лучшее");
+    best.children("a").html(f_text);
+    feed.children("a").html(b_text);
 
     best.children("a").attr("href","/subs");
     feed.children("a").attr("href","/best");
