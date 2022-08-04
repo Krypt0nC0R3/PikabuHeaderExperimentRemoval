@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Pikabu Experiment removal
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      1.0
 // @description  try to take over the world!
-// @author       You
+// @author       Krypt0n.C0R3
 // @match        *://pikabu.ru/*
 // @require  https://code.jquery.com/jquery-3.5.0.js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=pikabu.ru
